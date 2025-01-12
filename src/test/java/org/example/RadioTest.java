@@ -14,6 +14,7 @@ public class RadioTest {
         int actual = radio.getCurrentRadioStation();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void TestStationsCount() {
         Radio radio = new Radio(70);
@@ -35,6 +36,7 @@ public class RadioTest {
         int actual = radio.getCurrentRadioStation();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void TestStationCountMinimumValue() {
         Radio radio = new Radio(70);
@@ -56,6 +58,7 @@ public class RadioTest {
         int actual = radio.getCurrentRadioStation();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void TestStationCountMoreThanTheMinimum() {
         Radio radio = new Radio(55);
@@ -77,6 +80,7 @@ public class RadioTest {
         int actual = radio.getCurrentRadioStation();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void TestStationCountLessThanMaximum() {
         Radio radio = new Radio(67);
@@ -98,6 +102,7 @@ public class RadioTest {
         int actual = radio.getCurrentRadioStation();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void TestStationCountMaximumValue() {
         Radio radio = new Radio(94);
@@ -119,6 +124,7 @@ public class RadioTest {
         int actual = radio.getCurrentRadioStation();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void TestStationCountGreaterThanMaximumValue() {
         Radio radio = new Radio(58);
@@ -140,6 +146,7 @@ public class RadioTest {
         int actual = radio.getCurrentRadioStation();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void TestStationCountLessThanMinimum() {
         Radio radio = new Radio(64);
@@ -161,6 +168,7 @@ public class RadioTest {
         int actual = radio.getCurrentRadioStation();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void TestStationCountInvalidNegativeValue() {
         Radio radio = new Radio(66);
@@ -182,6 +190,7 @@ public class RadioTest {
         int actual = radio.getCurrentRadioStation();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void TestStationCountInvalidPositiveValue() {
         Radio radio = new Radio(78);
@@ -205,6 +214,7 @@ public class RadioTest {
         int actual = radio.getCurrentRadioStation();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void TestCountNextStationValidValue() {
         Radio radio = new Radio(75);
@@ -227,6 +237,7 @@ public class RadioTest {
         int actual = radio.getCurrentRadioStation();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void TestCountNextStationMinimumValue() {
         Radio radio = new Radio(98);
@@ -249,6 +260,7 @@ public class RadioTest {
         int actual = radio.getCurrentRadioStation();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void TestCountNextStationMoreThanTheMinimum() {
         Radio radio = new Radio(53);
@@ -271,6 +283,7 @@ public class RadioTest {
         int actual = radio.getCurrentRadioStation();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void TestCountNextStationLessThanMaximum() {
         Radio radio = new Radio(66);
@@ -292,6 +305,7 @@ public class RadioTest {
         int actual = radio.getCurrentRadioStation();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void TestCountNextStationMaximumValue() {
         Radio radio = new Radio(88);
@@ -314,6 +328,7 @@ public class RadioTest {
         int actual = radio.getCurrentRadioStation();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void TestCountPrevStationValidValue() {
         Radio radio = new Radio(44);
@@ -336,6 +351,7 @@ public class RadioTest {
         int actual = radio.getCurrentRadioStation();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void TestCountPrevStationMinimumValue() {
         Radio radio = new Radio(83);
@@ -358,6 +374,7 @@ public class RadioTest {
         int actual = radio.getCurrentRadioStation();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void TestCountPrevStationMoreThanTheMinimum() {
         Radio radio = new Radio(89);
@@ -380,6 +397,7 @@ public class RadioTest {
         int actual = radio.getCurrentRadioStation();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void TestCountPrevStationLessThanMaximum() {
         Radio radio = new Radio(51);
@@ -401,6 +419,7 @@ public class RadioTest {
         int actual = radio.getCurrentRadioStation();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void TestCountPrevStationMaximumValue() {
         Radio radio = new Radio(37);
